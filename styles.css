@@ -78,7 +78,11 @@ li {
     font-size: 1rem;
     color: #595959;
 }
- 
+
+i {
+    pointer-events: none; 
+}
+
 .todo-item{
     flex-grow: 1;
 }
@@ -95,3 +99,11 @@ li {
     color: palevioletred;
 }
 
+.todo-list-item {
+    transition: all 0.3s ease-out;
+}
+
+.todo-list-item-fall {
+    transform:translateY(12 rem) rotateZ(10deg);
+    opacity: 0;
+}
