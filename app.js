@@ -43,10 +43,10 @@ function addTodo(todo) {
 
 function checkTodo(e) {
     let item = e.target.parentNode;
-    if (item.style.textDecoraton == 'line-through')
+    if (item.style.textDecoration == 'line-through')
         item.style.textDecoration = 'none';
     else
-        item.style.textDecoraton = 'line-through';
+        item.style.textDecoration = 'line-through';
 }
 
 function deleteTodo(e) {
